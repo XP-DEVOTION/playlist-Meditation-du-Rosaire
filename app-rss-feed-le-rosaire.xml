@@ -14,6 +14,7 @@
     <lastBuildDate>Tue, 02 Jun 2026 10:00:00 -0500</lastBuildDate>
 
     <!-- Developer Metadata -->
+<!-- Developer Channel Information -->
 <dev:developer>
   <dev:name>Eric Kouassi</dev:name>
   <dev:email>hello@erickouassi.com</dev:email>
@@ -25,7 +26,7 @@
   <!-- Multiple Developer Types (comma-separated) -->
   <dev:developerType>solo, indie, vibe</dev:developerType>
 
-  <!-- NEW: Short Bio -->
+  <!-- Short Bio -->
   <dev:bio>
     Solo indie developer building PWAs, devotional apps, and lightweight tools for communities.
   </dev:bio>
@@ -38,6 +39,7 @@
     <social:youtube>https://youtube.com/@eric_kouassi</social:youtube>
   </social:links>
 </dev:developer>
+
 
     <!-- ===================================================== -->
     <!-- 1) TESTING RELEASE (OLDER ITEM)                       -->
