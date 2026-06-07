@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:app="https://apphub.dev/rss/app"
+     xmlns:dev="https://apphub.dev/rss/developer"
+     xmlns:social="https://apphub.dev/rss/social"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Le Rosaire du Jour — Release Feed</title>
+    <link>https://le-rosaire.dailyrosary.cf/</link>
+    <atom:link href="https://le-rosaire.dailyrosary.cf/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Testing and production releases for the French Rosary app: Le Rosaire du Jour.</description>
+    <language>fr</language>
+    <lastBuildDate>Tue, 02 Jun 2026 10:00:00 -0500</lastBuildDate>
+
+    <!-- Developer Metadata -->
+<dev:developer>
+  <dev:name>Eric Kouassi</dev:name>
+  <dev:email>hello@erickouassi.com</dev:email>
+  <dev:website>https://erickouassi.com</dev:website>
+
+  <!-- Developer Avatar -->
+  <dev:avatar>https://www.image2url.com/r2/default/files/1780853908541-4e6c0ccc-c1dd-42c9-9cb8-90cf7a64ef68.jpg</dev:avatar>
+
+  <!-- Multiple Developer Types (comma-separated) -->
+  <dev:developerType>solo, indie, vibe</dev:developerType>
+
+  <!-- NEW: Short Bio -->
+  <dev:bio>
+    Solo indie developer building PWAs, devotional apps, and lightweight tools for communities.
+  </dev:bio>
+
+  <!-- Social Links -->
+  <social:links>
+    <social:reddit>https://www.reddit.com/user/By_EK/</social:reddit>
+    <social:github>https://github.com/erickouassi</social:github>
+    <social:twitter>https://twitter.com/eric_kouassi</social:twitter>
+    <social:youtube>https://youtube.com/@eric_kouassi</social:youtube>
+  </social:links>
+</dev:developer>
+
+    <!-- ===================================================== -->
+    <!-- 1) TESTING RELEASE (OLDER ITEM)                       -->
+    <!-- ===================================================== -->
+    <item>
+      <title>Le Rosaire du Jour — Version 1.0.0 (Test)</title>
+      <guid isPermaLink="false">com.erickouassi.lerosaire-1.0.0</guid>
+
+      <pubDate>Fri, 15 May 2026 09:00:00 -0500</pubDate>
+      <app:lastUpdated>Fri, 15 May 2026 09:00:00 -0500</app:lastUpdated>
+
+      <app:platform>Android</app:platform>
+      <app:version>1.0.0</app:version>
+      <app:category>Lifestyle</app:category>
+      <app:price>Free</app:price>
+      <app:icon>https://raw.githubusercontent.com/XP-DEVOTION/playlist-Daily-Rosary/main/assets/icon.png</app:icon>
+
+      <app:status>open-testing</app:status>
+      <app:testingDuration>25</app:testingDuration>
+
+      <app:testing>
+        <app:testLink>https://play.google.com/apps/testing/com.erickouassi.lerosaire.dailyrosary</app:testLink>
+        <app:groupLink>https://groups.google.com/g/le-rosaire-du-jour-beta-testers</app:groupLink>
+        <app:groupMembers>40</app:groupMembers>
+      </app:testing>
+
+      <description>
+        Version française du Rosaire quotidien, avec audio, mystère du jour automatique et suivi de prière.
+      </description>
+
+      <app:whatsNew>
+        <app:change>Première version bêta</app:change>
+        <app:change>Sélection automatique du mystère du jour</app:change>
+        <app:change>Audio guidé pour toutes les prières</app:change>
+      </app:whatsNew>
+
+      <app:requirements>
+        <app:requirement>Connexion Internet</app:requirement>
+        <app:requirement>Navigateur moderne</app:requirement>
+      </app:requirements>
+
+      <app:languages>
+        <app:language>French</app:language>
+      </app:languages>
+
+      <app:countries>
+        <app:country>Cote D'Ivoire</app:country>
+        <app:country>France</app:country>
+        <app:country>Canada</app:country>
+        <app:country>United States</app:country>
+      </app:countries>
+    </item>
+
+    <!-- ===================================================== -->
+    <!-- 2) TESTING COMPLETED RELEASE (NEWEST ITEM)            -->
+    <!-- ===================================================== -->
+    <item>
+      <title>Le Rosaire du Jour — Version 1.0.1 (Testing Completed)</title>
+      <guid isPermaLink="false">com.erickouassi.lerosaire-1.0.1</guid>
+
+      <pubDate>Fri, 15 May 2026 09:00:00 -0500</pubDate>
+      <app:lastUpdated>Tue, 02 Jun 2026 10:00:00 -0500</app:lastUpdated>
+
+      <app:platform>Android</app:platform>
+      <app:version>1.0.1</app:version>
+      <app:category>Lifestyle</app:category>
+      <app:price>Free</app:price>
+      <app:icon>https://raw.githubusercontent.com/XP-DEVOTION/playlist-Daily-Rosary/main/assets/icon.png</app:icon>
+
+      <!-- Allowed status keyword -->
+      <app:status>open-testing</app:status>
+
+      <!-- Required for all items -->
+      <app:testingDuration>25</app:testingDuration>
+
+      <!-- Required for all items -->
+      <app:testing>
+        <app:testLink>https://play.google.com/apps/testing/com.erickouassi.lerosaire.dailyrosary</app:testLink>
+        <app:groupLink>https://groups.google.com/g/le-rosaire-du-jour-beta-testers</app:groupLink>
+        <app:groupMembers>40</app:groupMembers>
+      </app:testing>
+
+      <description>
+        Première version de production du Rosaire du Jour, avec une meilleure stabilité audio et une interface plus fluide.
+      </description>
+
+      <app:whatsNew>
+        <app:change>Fin de la phase de test</app:change>
+        <app:change>Amélioration de la stabilité audio</app:change>
+        <app:change>Chargement plus rapide du mystère du jour</app:change>
+        <app:change>Optimisations visuelles</app:change>
+      </app:whatsNew>
+
+      <app:requirements>
+        <app:requirement>Connexion Internet</app:requirement>
+        <app:requirement>Navigateur moderne</app:requirement>
+      </app:requirements>
+
+      <app:languages>
+        <app:language>French</app:language>
+      </app:languages>
+
+      <app:countries>
+       <app:country>Global Track Release</app:country>
+      </app:countries>
+    </item>
+
+  </channel>
+</rss>
