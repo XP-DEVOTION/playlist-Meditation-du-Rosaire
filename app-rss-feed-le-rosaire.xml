@@ -55,7 +55,7 @@
       <app:version>1.0.0</app:version>
       <app:category>Lifestyle</app:category>
       <app:price>Free</app:price>
-      <app:icon>https://raw.githubusercontent.com/XP-DEVOTION/playlist-Daily-Rosary/main/assets/icon.png</app:icon>
+      <app:icon>https://raw.githubusercontent.com/XP-DEVOTION/playlist-Daily-Rosary/main/assets/android-chrome-512x512.png</app:icon>
 
       <app:status>open-testing</app:status>
       <app:testingDuration>25</app:testingDuration>
@@ -107,7 +107,7 @@
       <app:version>1.0.1</app:version>
       <app:category>Lifestyle</app:category>
       <app:price>Free</app:price>
-      <app:icon>https://raw.githubusercontent.com/XP-DEVOTION/playlist-Daily-Rosary/main/assets/icon.png</app:icon>
+      <app:icon>https://raw.githubusercontent.com/XP-DEVOTION/playlist-Daily-Rosary/main/assets/android-chrome-512x512.png</app:icon>
 
       <!-- Allowed status keyword -->
       <app:status>open-testing</app:status>
